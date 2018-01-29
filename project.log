@@ -1,0 +1,26 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F8720 -DL -O11111114 -fo64 -N"C:\Users\wzomzot\Desktop\Мой курсач\02\project.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\wzomzot\Desktop\Мой курсач\02\" -IP"C:\Users\wzomzot\Desktop\Мой курсач\02\" "main.c" "ds1302.c" "ws2812.c" "enc28j60.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_EEPROM_1024.mcl" "__Lib_SPI_c345.mcl" "__Lib_EthEnc28j60.mcl"	 
+hint: 0	1139	Available RAM: 3819 [bytes], Available ROM: 131072 [bytes]	 
+diagnostics: 0	122	Compilation Started	resources.h
+diagnostics: 48	123	Compiled Successfully	main.c
+diagnostics: 0	122	Compilation Started	ds1302.h
+diagnostics: 191	123	Compiled Successfully	ds1302.c
+hint: 160	1164	Variable 'value' has been eliminated by optimizer	ds1302.c
+diagnostics: 0	122	Compilation Started	ds1302.h
+warning: 152	1505	Suspicious pointer conversion	ws2812.c
+warning: 161	1505	Suspicious pointer conversion	ws2812.c
+warning: 170	1505	Suspicious pointer conversion	ws2812.c
+warning: 179	1505	Suspicious pointer conversion	ws2812.c
+warning: 203	1505	Suspicious pointer conversion	ws2812.c
+warning: 212	1505	Suspicious pointer conversion	ws2812.c
+warning: 221	1505	Suspicious pointer conversion	ws2812.c
+warning: 230	1505	Suspicious pointer conversion	ws2812.c
+diagnostics: 1198	123	Compiled Successfully	ws2812.c
+diagnostics: 0	122	Compilation Started	enc28j60.h
+diagnostics: 609	123	Compiled Successfully	enc28j60.c
+diagnostics: 0	127	All files Compiled in 469 ms	 
+hint: 0	1144	Used RAM (bytes): 2530 (66%)  Free RAM (bytes): 1289 (34%)	Used RAM (bytes): 2530 (66%)  Free RAM (bytes): 1289 (34%)
+hint: 0	1144	Used ROM (bytes): 24519 (19%)  Free ROM (bytes): 106553 (81%)	Used ROM (bytes): 24519 (19%)  Free ROM (bytes): 106553 (81%)
+diagnostics: 0	125	Project Linked Successfully	project.mcppi
+diagnostics: 0	128	Linked in 156 ms	 
+diagnostics: 0	129	Project 'project.mcppi' completed: 656 ms	 
+diagnostics: 0	103	Finished successfully: 13 янв 2018, 13:25:07	project.mcppi
